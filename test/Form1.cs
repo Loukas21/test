@@ -19,5 +19,11 @@ namespace test
         {
             Application.Exit();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Hello World!";
+            button2.Enabled = false;
+        }
     }
 }
